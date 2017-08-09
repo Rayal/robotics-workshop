@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <launch>
   <include file="$(find youbot_gazebo_robot)/launch/youbot.launch"/>
+  <include file="$(find firstpack)/launch/mapserver.launch"/>
+  <include file="$(find firstpack)/launch/amcl.launch"/>
+  <include file="$(find teb_local_planner_youbot)/launch/move_base.launch"/>
   <node pkg="rviz" type="rviz" name="rviz"/>
+  <node pkg="firstpack" type="rqt.sh" name="rqt"/> 
 </launch>
 
