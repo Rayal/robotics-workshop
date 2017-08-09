@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find youbot_gazebo_robot)/launch/youbot.launch"/>
+  <node pkg="rviz" type="rviz" name="rviz"/>
+</launch>
+
