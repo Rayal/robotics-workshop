@@ -5,6 +5,6 @@ moveit_setup_assistant_config:
   SRDF:
     relative_path: config/youbot.srdf
   CONFIG:
-    author_name: Andreas Ragen Ayal
-    author_email: andreas.ayal@ut.ee
-    generated_timestamp: 1502357530
+    author_name: nlimpert
+    author_email: limpert@fh-aachen.de
+    generated_timestamp: 1502356559
